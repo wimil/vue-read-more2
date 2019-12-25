@@ -8,7 +8,7 @@ export default {
 
       if (text) {
         if (text.length > params.limit) {
-          vn.elm.textContent = text.substring(0, params.limit);
+          vn.elm.textContent = text.substring(0, params.limit) + '...';
 
           //read more
           var read_more = document.createElement("a");
@@ -30,7 +30,7 @@ export default {
 
           read_less.addEventListener("click", function(e) {
             e.preventDefault();
-            vn.elm.textContent = text.substring(0, params.limit);
+            vn.elm.textContent = text.substring(0, params.limit) + '...';
             vn.elm.append(" ", read_more);
           });
         }
