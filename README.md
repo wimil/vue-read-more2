@@ -9,7 +9,7 @@ Bifurcated project of https://github.com/orlyyani/read-more, I have added some i
 # NPM
 
 ```
- npm install vue-read-more-2 --save
+ npm install vue-read-more2 --save
 ```
 
 # Features!
