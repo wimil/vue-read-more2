@@ -1,0 +1,29 @@
+{
+  "name": "vue-read-more2",
+  "version": "1.0.0",
+  "description": "a vue.js read-more and read less plugin",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wimil/vue-read-more2.git"
+  },
+  "author": "rldev25@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/wimil/vue-read-more2.git",
+  "bugs": {
+    "url": "https://github.com/wimil/vue-read-more2/issues"
+  },
+  "keywords": [
+    "read",
+    "more",
+    "read",
+    "less",
+    "view",
+    "more",
+    "vue.js",
+    "vue"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
