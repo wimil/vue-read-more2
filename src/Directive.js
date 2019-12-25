@@ -22,12 +22,14 @@ export default {
 
           vn.elm.append(" ", read_more);
 
-          read_more.addEventListener("click", function() {
+          read_more.addEventListener("click", function(e) {
+            e.preventDefault();
             vn.elm.textContent = text;
             vn.elm.append(" ", read_less);
           });
 
-          read_less.addEventListener("click", function() {
+          read_less.addEventListener("click", function(e) {
+            e.preventDefault();
             vn.elm.textContent = text.substring(0, params.limit);
             vn.elm.append(" ", read_more);
           });
