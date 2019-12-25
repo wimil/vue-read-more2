@@ -9,7 +9,7 @@ Bifurcated project of https://github.com/orlyyani/read-more, I have added some i
 # NPM
 
 ```
- npm install vue-readmore --save
+ npm install vue-read-more-2 --save
 ```
 
 # Features!
@@ -22,7 +22,7 @@ Bifurcated project of https://github.com/orlyyani/read-more, I have added some i
 # Usage
 
 ```
- import ReadMore from 'vue-read-more';
+ import ReadMore from 'vue-read-more2';
  
  Vue.use(ReadMore);
 ```
